@@ -51,7 +51,7 @@ class MyDB {
        * @param {Ticket} ticket
        */
       (ticket) => {
-        ticket.id === ticketId;
+        return ticket.id === ticketId;
       },
     );
     return ticket;
